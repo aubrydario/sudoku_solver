@@ -1,0 +1,23 @@
+table
+  border: 1px solid black
+  border-spacing: 0px
+
+  td
+    border: 1px solid gray
+    width: 30px
+    height: 30px
+    text-align: center
+
+  td:nth-child(3n)
+    border-right: 1px solid black
+
+  td:nth-child(3n - 2)
+    border-left: 1px solid black
+
+  tr:nth-child(3n)
+    td
+      border-bottom: 1px solid black
+
+  tr:nth-child(3n - 2)
+    td
+      border-top: 1px solid black    
